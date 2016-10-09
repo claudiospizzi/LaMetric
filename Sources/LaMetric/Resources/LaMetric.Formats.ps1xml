@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+  <ViewDefinitions>
+
+    <View>
+      <Name>LaMetric.Device</Name>
+      <ViewSelectedBy>
+        <TypeName>LaMetric.Device</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Name</Label>
+            <Width>12</Width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Model</Label>
+            <Width>12</Width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Serial Number</Label>
+            <Width>22</Width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>OS Version</Label>
+            <Width>12</Width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Mode</Label>
+            <Width>12</Width>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>model</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>serial_number</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>os_version</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>mode</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+
+    <View>
+      <Name>LaMetric.Version</Name>
+      <ViewSelectedBy>
+        <TypeName>LaMetric.Version</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>API Version</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>api_version</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+
+  </ViewDefinitions>
+</Configuration>

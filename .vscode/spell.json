@@ -1,0 +1,46 @@
+{
+  "language": "en",
+  "ignoreWordsList": [
+    "LaMetric",
+    "PowerShell",
+    "Spizzi",
+    "R2",
+    "cmdlet",
+    "WMF",
+    "powershell",
+    "GitHub",
+    "PowerShellGet",
+    "claudiospizzi",
+    "PowerShellModuleBase",
+    "ps1",
+    "AppVeyor",
+    "CurrentUser",
+    "AllUsers",
+    "-Scope",
+    "Get-LaMetricVersion",
+    "Get-LaMetricDevice",
+    "Show-LaMetricNotification"
+  ],
+  "mistakeTypeToStatus": {
+    "Passive voice": "Hint",
+    "Spelling": "Error",
+    "Complex Expression": "Disable",
+    "Hidden Verbs": "Information",
+    "Hyphen Required": "Disable",
+    "Redundant Expression": "Disable",
+    "Did you mean...": "Disable",
+    "Repeated Word": "Warning",
+    "Missing apostrophe": "Warning",
+    "Cliches": "Disable",
+    "Missing Word": "Disable",
+    "Make I uppercase": "Warning"
+  },
+  "languageIDs": [
+    "markdown",
+    "plaintext"
+  ],
+  "ignoreRegExp": [
+    "/\\(.*\\.(jpg|jpeg|png|md|gif|JPG|JPEG|PNG|MD|GIF)\\)/g",
+    "/((http|https|ftp|git)\\S*)/g"
+  ]
+}
